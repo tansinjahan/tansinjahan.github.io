@@ -76,20 +76,15 @@ Ottawa, Canada K1S 5B6\\
 \section{Introduction} \label{intro}
 % ############################################################################
 
-The idea of parallel computing is to execute more than one tasks simultaneously so that the complexity(ex- time, space etc.) in computation can be carried out smoothly. Though this is the simplest definition of parallel computing, but in real world, parallelization means a lot more than just handling the complexity in computation of algorithms. With the development of Deep Learning Networks, parallel computing has become the essential choice for the implementation of these networks.    
+The idea of parallel computing infers to execute more than one tasks simultaneously so that the complexity(ex- time, space etc.) in computation can be carried out smoothly. Though this is the simplest definition of parallel computing, in the real world, parallelization means a lot more than just handling the complexity in the computation of algorithms. With the development of Deep Learning Networks, parallel computing has become the essential choice for the implementation of these huge networks. Therefore the project idea here is to develop the parallelism between convolutional layers of neural networks so that the time for computation with a large number of input images can be minimized.
 
+Typically there are million of parameters(weights, biases) and a large amount of data involves in a CNN model. This large amount of data as input produces output at each layer which known as Forwarding propagation. The loss is calculated at the same time and updated parameters are backpropagated to the layers to minimize the loss. For this, the different optimization technique is applied such as Stochastic Gradient Descent or ADAM etc. This whole process is computationally expensive and therefore needs to be parallelized so that the training time minimizes and the network can run faster than usual times. 
 
 % ############################################################################
 \section{Literature Review} \label{litrev}
 % ############################################################################
 
-Give an overview of the relevant literature. Cite all relevant
-papers, like \cite{DEL07}, \cite{PD07}, \cite{DER07}, \cite{LDR07},
-\cite{DLX06}, \cite{CDE06}, and \cite{DFL06}. Outline for each paper
-the relevant results in relation to your project. Make sure that you
-don't just list all relevant papers in random order. Devise a scheme
-to group papers by subject. The goal is to present to the reader the
-state-of-the-art in the field selected for your project.
+With the recent development of Convolutional Neural Network, it has been used to solve several Computer Vision problem. For example, object detection or reconstruction from input image, semantic information extraction from a scenario, object segmentation- these are all recent computer vision application where CNN has been used to produce better result. Likewise, 3D reconstruction of an object is one of the Computer Vision problem and recently multiple approaches (ex: 3D-GAN, 3D-shapenets) has been proposed as a solution to the problem \cite{dr1}. Previous work shows that given a depth image as input, the volumetric representation can be produced , \cite{dr2}.
 
 
 % ############################################################################

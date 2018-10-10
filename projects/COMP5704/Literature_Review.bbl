@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{dr1}
+Jiajun Wu, Chengkai Zhang, Tianfan Xue, William~T. Freeman, and Joshua~B.
+  Tenenbaum.
+\newblock Learning a probabilistic latent space of object shapes via 3d
+  generative-adversarial modeling.
+\newblock {\em CoRR}, abs/1610.07584, 2016.
+
+\bibitem{dr2}
+Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang,
+  and Jianxiong Xiao.
+\newblock 3d shapenets: A deep representation for volumetric shapes.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1912--1920, 2015.
+
+\end{thebibliography}
