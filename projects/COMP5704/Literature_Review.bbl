@@ -1,5 +1,18 @@
 \begin{thebibliography}{1}
 
+\bibitem{dr7}
+Christopher~Bongsoo Choy, Danfei Xu, JunYoung Gwak, Kevin Chen, and Silvio
+  Savarese.
+\newblock 3d-r2n2: {A} unified approach for single and multi-view 3d object
+  reconstruction.
+\newblock {\em CoRR}, abs/1604.00449, 2016.
+
+\bibitem{dr5}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
 \bibitem{dr1}
 Jiajun Wu, Chengkai Zhang, Tianfan Xue, William~T. Freeman, and Joshua~B.
   Tenenbaum.
