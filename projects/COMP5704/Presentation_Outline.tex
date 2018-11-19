@@ -25,7 +25,7 @@
 % Title
 % ############################################################################
 
-\title{PRESENTATION OUTLINE: --- Parallelization between Layers of Convolutional Neural Networks to create 3D Object Reconstruction ---}
+\title{PRESENTATION OUTLINE: --- Parallelization between Layers of Convolutional Neural Networks to create 3D Object Reconstruction}
 
 
 % ############################################################################
@@ -40,33 +40,59 @@ Ottawa, Canada K1S 5B6\\
 % ############################################################################
 } % end-authors
 % ############################################################################
-
+\date{November 18, 2018}
 \maketitle
 
 % ############################################################################
-\begin{slide}{Title of my first slide}
-\item first thing
-\item second thing
-\item third thing
-\item fourth thing
+\begin{slide}{Introduction}
+\item Project title and introduce thyself
 \end{slide}
 
-
 % ############################################################################
-\begin{slide}{Title of my second slide}
-\item first thing
-\item second thing
-\item third thing
-\item fourth thing
+\begin{slide}{Literature review}
+\item Describe some points of chosen papers (How to parallelize layers of CNN) 
+\item Some previous technique discussion (Data parallelism, model parallelism etc.)
+\item Brief analysis of previous work (Analyze specifically model parallelism technique)
 \end{slide}
 
-\noindent ... more slides ...
+% ############################################################################
+\begin{slide}{Project Discussion}
+\item CNN and it's evolution
+\item Basic Python and Tensorflow introduction
+\item How CNN is integrated to the project
+\item Algorithm
+\item Runtime analysis of the algorithm
+\item Limitation
+\end{slide}
 
 % ############################################################################
-% Bibliography
+\begin{slide}{Parallelism}
+\item Basic idea of parallelism [simple vectorAdd example in Python]
+\item Overview of cuDNN[cuda library] 
+\item How cuDNN integrates to the project
+\end{slide}
+
 % ############################################################################
-\bibliographystyle{plain}
-\bibliography{my-bibliography}     %loads my-bibliography.bib
+\begin{slide}{Experiment}
+\item Implementation of the project
+\item Analysis of result
+\item Comparison with other papers[it can be changed depending on results]
+\end{slide}
+
+% ############################################################################
+\begin{slide}{Application}
+\item Motivation
+\item Possible application of the work 
+\item Future work
+\end{slide}
+
+% ############################################################################
+\begin{slide}{Discussion}
+\item Ask question 1
+\item Ask question 2
+\item Ask question 3
+\end{slide}
+
 
 % ============================================================================
 \end{document}
