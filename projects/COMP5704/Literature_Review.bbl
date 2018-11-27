@@ -32,4 +32,10 @@ Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang,
 \newblock In {\em Proceedings of the IEEE conference on computer vision and
   pattern recognition}, pages 1912--1920, 2015.
 
+\bibitem{dr8}
+Zhuotun Zhu, Xinggang Wang, Song Bai, Cong Yao, and Xiang Bai.
+\newblock Deep learning representation using autoencoder for 3d shape
+  retrieval.
+\newblock {\em Neurocomputing}, 204:41--50, 2016.
+
 \end{thebibliography}
