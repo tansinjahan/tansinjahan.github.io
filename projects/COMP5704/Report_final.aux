@@ -1,0 +1,103 @@
+\relax 
+\citation{dr9}
+\citation{book1}
+\citation{mis1}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\newlabel{intro}{{1}{1}}
+\citation{dr1}
+\citation{radford2015unsupervised}
+\citation{bojanowski2017optimizing}
+\citation{dr2}
+\citation{dr7}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{2}}
+\newlabel{litrev}{{2}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Object reconstruction using CNN}{2}}
+\newlabel{subrev1}{{2.1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Current approaches for 3D object reconstruction }{2}}
+\newlabel{subrev2}{{2.2}{2}}
+\citation{samel2016gpu}
+\citation{nickolls2008scalable}
+\citation{ryoo2008optimization}
+\citation{mis2}
+\citation{mis4}
+\citation{dr8}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Parallelism in GPU}{3}}
+\newlabel{subrev3}{{2.3}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A simple autoencoder architecture\relax }}{3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{autoencoder}{{1}{3}}
+\citation{dr7}
+\citation{dr2}
+\citation{latcharote2013high}
+\citation{latcharote2013high}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Problem Statement}{4}}
+\newlabel{problemStatement}{{3}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Proposed Solution}{4}}
+\newlabel{proposedSolution}{{4}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Algorithm for interpolation}{4}}
+\newlabel{algo}{{4.1}{4}}
+\citation{mis3}
+\citation{mis3}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces CPU vs GPU time for Matrix Multiplication\relax }}{5}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Algorithm to generate new \textbf  {z} as latent space for Autoencoder\relax }}{5}}
+\newlabel{algoZ}{{1}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Parallelism}{5}}
+\newlabel{partech}{{4.2}{5}}
+\citation{shapenet2015}
+\newlabel{fig:sub1}{{3a}{6}}
+\newlabel{sub@fig:sub1}{{a}{6}}
+\newlabel{fig:sub2}{{3b}{6}}
+\newlabel{sub@fig:sub2}{{b}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces CUDA parallel programming architecture\relax }}{6}}
+\newlabel{fig:test}{{3}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Evaluation}{6}}
+\newlabel{expEval}{{5}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Dataset and GPU configuration}{6}}
+\newlabel{data}{{5.1}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}CNN and training}{6}}
+\newlabel{cnn}{{5.2}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces The highlighted output of encoder [2 x 2 x 2 x 8] represents \textbf  {z} and reshaped into [8 x 8] to perform vector operation conveniently inside kernel. No feature is lost or modified in this reshape operation as dimension remains unchanged. After interpolation \textbf  {z} again reshaped into [2 x 2 x 2 x 8] to follow the model architecture and feed to the Decoder.\relax }}{7}}
+\newlabel{table1}{{1}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Threads and results comparison }{7}}
+\newlabel{vec}{{5.3}{7}}
+\newlabel{threadfig}{{4a}{7}}
+\newlabel{sub@threadfig}{{a}{7}}
+\newlabel{comp}{{4b}{7}}
+\newlabel{sub@comp}{{b}{7}}
+\newlabel{fig:sub2}{{4b}{7}}
+\newlabel{sub@fig:sub2}{{b}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces First subfigure 4a\hbox {} shows how many threads are implemented and subfigure 4b\hbox {} represents the total time taken by CPU and GPU to complete the program using shared memory\relax }}{7}}
+\newlabel{fig:test}{{4}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}CPU vs GPU analysis }{7}}
+\newlabel{CPU-GPU}{{5.4}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Time differences on GPU in terms of Shared and Global memory\relax }}{8}}
+\newlabel{memorytable}{{2}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces GPU and CPU time differences vs input size\relax }}{8}}
+\newlabel{input-time}{{3}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The variance of GPU and CPU time is shown in compared to the input sizes\relax }}{8}}
+\newlabel{analysis}{{5}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Autoencoder output }{9}}
+\newlabel{output}{{5.5}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Output shape from two given input shape through interpolation inside latent space\relax }}{9}}
+\newlabel{autooutput}{{6}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{9}}
+\newlabel{concl}{{6}{9}}
+\bibstyle{plain}
+\bibdata{my-bibliography}
+\bibcite{mis1}{1}
+\bibcite{mis2}{2}
+\bibcite{mis3}{3}
+\bibcite{bojanowski2017optimizing}{4}
+\bibcite{shapenet2015}{5}
+\bibcite{dr7}{6}
+\bibcite{dr9}{7}
+\bibcite{book1}{8}
+\bibcite{latcharote2013high}{9}
+\bibcite{nickolls2008scalable}{10}
+\bibcite{radford2015unsupervised}{11}
+\bibcite{ryoo2008optimization}{12}
+\bibcite{samel2016gpu}{13}
+\bibcite{mis4}{14}
+\bibcite{dr1}{15}
+\bibcite{dr2}{16}
+\bibcite{dr8}{17}

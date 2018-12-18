@@ -7,16 +7,22 @@ Christopher~Bongsoo Choy, Danfei Xu, JunYoung Gwak, Kevin Chen, and Silvio
   reconstruction.
 \newblock {\em CoRR}, abs/1604.00449, 2016.
 
-\bibitem{dr4}
-Alex Krizhevsky.
-\newblock One weird trick for parallelizing convolutional neural networks.
-\newblock {\em arXiv preprint arXiv:1404.5997}, 2014.
-
 \bibitem{dr5}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock Imagenet classification with deep convolutional neural networks.
 \newblock In {\em Advances in neural information processing systems}, pages
   1097--1105, 2012.
+
+\bibitem{nickolls2008scalable}
+John Nickolls, Ian Buck, Michael Garland, and Kevin Skadron.
+\newblock Scalable parallel programming with cuda.
+\newblock In {\em ACM SIGGRAPH 2008 classes}, page~16. ACM, 2008.
+
+\bibitem{samel2016gpu}
+Bhavana Samel, Shubhrata Mahajan, and AM~Ingole.
+\newblock Gpu computing and its applications.
+\newblock {\em International Research Journal of Engineering and Technology
+  (IRJET)}, 3(04), 2016.
 
 \bibitem{dr1}
 Jiajun Wu, Chengkai Zhang, Tianfan Xue, William~T. Freeman, and Joshua~B.

@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{mis1}
+{GRAPHICS PROCESSING UNIT (GPU)}.
+\newblock \url{https://cloud.google.com/gpu/}.
+\newblock [Online; accessed 12-December-2018].
+
+\bibitem{mis2}
+{Home NVIDIA Developer}.
+\newblock \url{https://developer.nvidia.com/cudnn}.
+\newblock [Online; accessed 13-December-2018].
+
+\bibitem{mis3}
+{CUDA Architecture Overview}.
+\newblock
+  \url{http://developer.download.nvidia.com/compute/cuda/docs/CUDA_Architecture_Overview.pdf},
+  2009.
+\newblock [Online; accessed 13-December-2018].
+
+\bibitem{bojanowski2017optimizing}
+Piotr Bojanowski, Armand Joulin, David Lopez-Paz, and Arthur Szlam.
+\newblock Optimizing the latent space of generative networks.
+\newblock {\em arXiv preprint arXiv:1707.05776}, 2017.
+
+\bibitem{shapenet2015}
+Angel~X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang,
+  Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao,
+  Li~Yi, and Fisher Yu.
+\newblock {ShapeNet: An Information-Rich 3D Model Repository}.
+\newblock Technical Report arXiv:1512.03012 [cs.GR], 2018.
+
+\bibitem{dr7}
+Christopher~Bongsoo Choy, Danfei Xu, JunYoung Gwak, Kevin Chen, and Silvio
+  Savarese.
+\newblock 3d-r2n2: {A} unified approach for single and multi-view 3d object
+  reconstruction.
+\newblock {\em CoRR}, abs/1604.00449, 2016.
+
+\bibitem{dr9}
+Ralph Duncan.
+\newblock A survey of parallel computer architectures.
+\newblock {\em Computer}, (2):5--16, 1990.
+
+\bibitem{book1}
+Vipin Kumar, Ananth Grama, Anshul Gupta, and George Karypis.
+\newblock {\em Introduction to parallel computing: design and analysis of
+  algorithms}, volume 400.
+\newblock Benjamin/Cummings Redwood City, 1994.
+
+\bibitem{latcharote2013high}
+Panon Latcharote and Yoshiro Kai.
+\newblock High performance computing of dynamic structural response analysis
+  for the integrated earthquake simulation.
+\newblock In {\em Proceedings of the Thirteenth East Asia-Pacific Conference on
+  Structural Engineering and Construction (EASEC-13)}, pages H--1. The
+  Thirteenth East Asia-Pacific Conference on Structural Engineering and~…,
+  2013.
+
+\bibitem{nickolls2008scalable}
+John Nickolls, Ian Buck, Michael Garland, and Kevin Skadron.
+\newblock Scalable parallel programming with cuda.
+\newblock In {\em ACM SIGGRAPH 2008 classes}, page~16. ACM, 2008.
+
+\bibitem{radford2015unsupervised}
+Alec Radford, Luke Metz, and Soumith Chintala.
+\newblock Unsupervised representation learning with deep convolutional
+  generative adversarial networks.
+\newblock {\em arXiv preprint arXiv:1511.06434}, 2015.
+
+\bibitem{ryoo2008optimization}
+Shane Ryoo, Christopher~I Rodrigues, Sara~S Baghsorkhi, Sam~S Stone, David~B
+  Kirk, and Wen-mei~W Hwu.
+\newblock Optimization principles and application performance evaluation of a
+  multithreaded gpu using cuda.
+\newblock In {\em Proceedings of the 13th ACM SIGPLAN Symposium on Principles
+  and practice of parallel programming}, pages 73--82. ACM, 2008.
+
+\bibitem{samel2016gpu}
+Bhavana Samel, Shubhrata Mahajan, and AM~Ingole.
+\newblock Gpu computing and its applications.
+\newblock {\em International Research Journal of Engineering and Technology
+  (IRJET)}, 3(04), 2016.
+
+\bibitem{mis4}
+Lilian Weng.
+\newblock {From Autoencoder to Beta-VAE}.
+\newblock
+  \url{https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html},
+  2018.
+\newblock [Online; accessed 16-December-2018].
+
+\bibitem{dr1}
+Jiajun Wu, Chengkai Zhang, Tianfan Xue, William~T. Freeman, and Joshua~B.
+  Tenenbaum.
+\newblock Learning a probabilistic latent space of object shapes via 3d
+  generative-adversarial modeling.
+\newblock {\em CoRR}, abs/1610.07584, 2016.
+
+\bibitem{dr2}
+Zhirong Wu, Shuran Song, Aditya Khosla, Fisher Yu, Linguang Zhang, Xiaoou Tang,
+  and Jianxiong Xiao.
+\newblock 3d shapenets: A deep representation for volumetric shapes.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1912--1920, 2015.
+
+\bibitem{dr8}
+Zhuotun Zhu, Xinggang Wang, Song Bai, Cong Yao, and Xiang Bai.
+\newblock Deep learning representation using autoencoder for 3d shape
+  retrieval.
+\newblock {\em Neurocomputing}, 204:41--50, 2016.
+
+\end{thebibliography}
